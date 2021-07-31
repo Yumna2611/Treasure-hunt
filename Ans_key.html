@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style_ans.css">
+    <title>Code Hub</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <span class="text1">Code Hub</span>
+    </div>
+  </div>
+    </header>
+    <style>
+      body {
+                background-image: url('https://cdn.pixabay.com/photo/2016/10/29/09/40/bokeh-1780217__340.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+    </style>
+    <div class="instructions">
+      <h5>Here you have to enter all the codes to get the link to the next level. So keep this tab open.<br> LINK FOR LEVEL1:</h5><a href="https://1drv.ms/p/s!ArDDw7go5rsWe0YzbfBKPjRyqhs" target="_blank">LEVEL 1</a>
+    <section id="level">
+    <h4>Write the codes in <u>CAPITAL LETTERS</u> only</h4>
+    <p></p>
+    <h4>LEVEL 1</h4>
+    <input type="text" id="input_1" placeholder="Enter Code" /><button onclick="btn_1()">CONFIRM</button>
+    <p id="msg_1"></p>
+    <script>
+      function btn_1() {
+      var text_1;
+      var ans_1 = input_1.value;
+      if(ans_1=="TCEKSG123") {
+        text_1 = "Correct Answer!";
+        //var result = text_1.link("wordsearch.html" ,"_blank");
+        document.getElementById("msg_1").innerHTML = text_1;
+        window.open("wordsearch.html" ,"_blank");
+        //document.body.appendChild(a);
+      } else {
+        text_1 = "Incorrect Answer :( Try Again!";
+        document.getElementById("msg_1").innerHTML = text_1;
+      }
+      }
+    </script>
+
+    <h4>LEVEL 2</h4>
+    <input type="text" id="input_2" placeholder="Enter Code"/><button onclick="btn_2()">CONFIRM</button>
+    <p id="msg_2"></p>
+    <script>
+      function btn_2() {
+      var text_2;
+      var ans_2 = input_2.value;
+      if(ans_2=="ESKSMTT") {
+        text_2 = "Correct Answer!";
+        document.getElementById("msg_2").innerHTML = text_2;
+        window.open("CROSSword.html" ,"_blank");
+      } else {
+        text_2 = "Incorrect Answer :( Try Again!";
+        document.getElementById("msg_2").innerHTML = text_2;
+      }
+      }
+    </script>
+
+    <h4>LEVEL 3</h4>
+    <input type="text" id="input_3" placeholder="Enter Code"/><button onclick="btn_3()">CONFIRM</button>
+    <p id="msg_3"></p>
+    <script>
+      function btn_3() {
+      var text_3;
+      var ans_3 = input_3.value;
+      if(ans_3=="ASASTGFKT") {
+        text_3 = "Correct Answer!";
+        document.getElementById("msg_3").innerHTML = text_3;
+        window.open("https://quizizz.com/join/pre-game/running/U2FsdGVkX1%252B4PwjUzKDvvWe9IRPyb%252FdPYnep9Hw84yRhSTqdQysnbqhIw4oc%252BggCzh6yfk%252FUTp8NJORV2K3rI8s2kb0O2640hc9uPgkB%252FHPAMM9x0tmdm2J4OMxU0lz1KhNQFVbdYPiwd2IzdyNdI7%252BlxKUJ3tFHOieZOerWoeU%253D/start" ,"_blank");
+      } else {
+        text_3 = "Incorrect Answer :( Try Again!";
+        document.getElementById("msg_3").innerHTML = text_3;
+      }
+      }
+    </script>
+
+    <h4>LEVEL 4</h4>
+    <input type="text" id="input_4" placeholder="Enter Code"/><button onclick="btn_4()">CONFIRM</button>
+    <p id="msg_4"></p>
+    <script>
+      function btn_4() {
+      var text_4;
+      var ans_4 = input_4.value;
+      if(ans_4=="PAYSGAME") {
+        text_4 = "Correct Answer!";
+        document.getElementById("msg_4").innerHTML = text_4;
+        window.open("dragndrop.html" ,"_blank");
+
+      } else {
+        text_4 = "Incorrect Answer :( Try Again!";
+        document.getElementById("msg_4").innerHTML = text_4;
+      }
+      }
+    </script>
+
+    <h4>LEVEL 5</h4>
+    <input type="text" id="input_5" placeholder="Enter Code"/><button onclick="btn_5()">CONFIRM</button>
+    <p id="msg_5"></p>
+    <script>
+      function btn_5() {
+      var text_5;
+      var ans_5 = input_5.value;
+      if(ans_5=="TOTHEFINALE") {
+        text_5 = "Correct Answer!";
+        document.getElementById("msg_5").innerHTML = text_5;
+        window.open("Final_level.html" ,"_blank");
+      } else {
+        text_5 = "Incorrect Answer :( Try Again!";
+        document.getElementById("msg_5").innerHTML = text_5;
+      }
+      }
+    </script>
+    </section>
+
+    <script language="JavaScript">
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    /*document.onkeydown = function(e) {
+       "I" key*/
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      /* "J" key */
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      /* "S" key + macOS */
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      /* "U" key */
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      /* "F12" key */
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+  </body>
+</html>
