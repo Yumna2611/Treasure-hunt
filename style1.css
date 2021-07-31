@@ -1,0 +1,105 @@
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/29/09/40/bokeh-1780217__340.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+center{
+  font-family: Algerian;
+  font-size: 50px;
+}
+
+#lady{
+  position: relative;
+  opacity:0.85 ;
+  box-shadow: 3px 5px 10px rgba(0,0,0,.5);
+  display: inline-block;
+  width: 15%;
+}
+
+#drag1{
+  position: relative;
+  cursor: pointer;
+  overflow:auto;
+}
+
+#drag2{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag3{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag4{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag5{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag6{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag7{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag8{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag9{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag10{
+  position: relative;
+  cursor: pointer;
+}
+
+#drag11{
+  position: relative;
+  cursor: pointer;
+}
+
+.text {
+  margin-top: 30px;
+  position: absolute;
+  margin-left: 300px;
+  display: inline-block;
+  width: 35%;
+}
+
+.draggable{
+    overflow: scroll;
+}
+
+.droppable {
+  display: inline-block;
+  height: 160px;
+  width: 190px;
+  margin: 10px;
+  border: solid 3px salmon;
+  background: white;
+}
+
+.hold {
+  border: solid 5px darksalmon;
+}
+
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}

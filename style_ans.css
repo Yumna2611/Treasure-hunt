@@ -1,0 +1,91 @@
+* {
+	margin :0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	background-color: "Red";
+}
+header {
+	padding: 60px;
+	color: black;
+	margin-right: 2px;
+	margin-top: 5px;
+}
+.container{
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+
+.container span{
+	color:white;
+	text-transform: uppercase;
+	display: block;
+}
+.text1{
+	color: white;
+	font-size: 30px;
+	font-weight: 350;
+	letter-spacing: 8px;
+	margin-bottom: 2%;
+	background: black;
+	position: relative;
+	animation: text 3s 1;
+}
+.instructions {
+	background-color : #d8d8e3;
+	text-align: center;
+	margin-right: 15%;
+	margin-left: 15%;
+	box-shadow: 10px 10px 10px 10px #ABB2B9 ;
+	border-radius: 20px;
+	height: 20px;
+	padding-bottom: 85px;
+	margin-bottom: 5%;
+}
+
+#level {
+	background-color : #d8d8e3;
+	text-align: center;
+	margin-right: 15%;
+	margin-left: 15%;
+	box-shadow: 10px 10px 10px 10px #ABB2B9 ;
+	border-radius: 20px;
+	height: 550px;
+	padding-bottom: 150px;
+	margin-bottom: 5%;
+	margin-top: 8%;
+	}
+
+button{
+	background-color: #00b33c;
+	box-sizing: content-box;
+	border-radius: 20px;
+	box-shadow: 2px 3px 4px white;
+	font-size: 14px;
+	font-weight: 5px;
+	margin-left: 1%;
+}
+
+button:hover {
+	background-color:  #00802b;
+}
+@keyframes text {
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
